@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="gitlab" fetch="https://gitlab.com/"/>
+
+    <!-- Kernel -->
+    <project remote="github" name="EmanuelCN/kernel_xiaomi_sm8250" revision="munch" path="kernel/xiaomi/sm8250"/>
+
+    <!-- Hardware -->
+    <project remote="github" name="Deka-AOSP/android_hardware_xiaomi" revision="lineage-20" path="hardware/xiaomi"/>
+
+    <!-- Device trees -->
+    <project remote="github" name="Deka-AOSP/android_device_xiaomi_sm8250-common" revision="lineage-20" path="device/xiaomi/sm8250-common"/>
+    <project remote="github" name="Deka-AOSP/android_device_xiaomi_munch" revision="lineage-20" path="device/xiaomi/munch"/>
+
+    <!-- Vendor trees -->
+    <project remote="gitlab" name="deka-android/device-blobs-legacy/android_vendor_xiaomi_munch" revision="lineage-20" path="vendor/xiaomi/munch" />
+    <project remote="gitlab" name="deka-android/device-blobs-legacy/android_vendor_xiaomi_sm8250-common" revision="lineage-20" path="vendor/xiaomi/sm8250-common" />
+
+    <!-- Gapps -->
+    <project remote="gitlab" name="MindTheGapps/vendor_gapps" revision="tau" path="vendor/gapps"/>
+
+    <!-- MIUI camera-->
+    <project remote="github" name="madmax7896/device_xiaomi_munch-miuicamera" revision="topaz" path="device/xiaomi/munch-miuicamera"/>
+    <project remote="gitlab" name="reloadedcaf/vendor_xiaomi_munch-miuicamera" revision="t" path="vendor/xiaomi/munch-miuicamera"/>
+
+    <!-- Firmware -->
+    
+
+</manifest>
