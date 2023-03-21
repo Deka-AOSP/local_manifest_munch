@@ -27,6 +27,6 @@
     <project remote="github" name="KProfiles/android_packages_apps_Kprofiles" revision="main" path="packages/apps/KProfiles"/>
 
     <!-- Firmware -->
-    
+    <project remote="gitlab" name="Ar5646L/vendor_xiaomi_munch-firmware" revision="thirteen-global" path="vendor/xiaomi/munch-firmware" />
 
 </manifest>
