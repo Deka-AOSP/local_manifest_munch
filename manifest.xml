@@ -29,4 +29,7 @@
     <!-- Firmware -->
     <project remote="gitlab" name="Ar5646L/vendor_xiaomi_munch-firmware" revision="thirteen-global" path="vendor/xiaomi/munch-firmware" />
 
+    <!-- OTA -->
+    <project remote="github" name="Deka-AOSP/android_vendor_crDroidOTA_unofficial" revision="13.0" path="vendor/dekaCrOTA" />
+
 </manifest>
