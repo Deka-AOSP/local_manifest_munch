@@ -3,7 +3,7 @@
     <remote name="gitlab" fetch="https://gitlab.com/"/>
 
     <!-- Kernel -->
-    <project remote="github" name="projects-nexus/nexus_kernel_xiaomi_sm8250" revision="staging" path="kernel/xiaomi/sm8250"/>
+    <project remote="github" name="EmanuelCN/kernel_xiaomi_sm8250" revision="munch" path="kernel/xiaomi/sm8250"/>
 
     <!-- Hardware -->
     <project remote="github" name="Deka-AOSP/android_hardware_xiaomi" revision="lineage-20" path="hardware/xiaomi"/>
@@ -22,9 +22,6 @@
     <!-- MIUI camera-->
     <project remote="github" name="madmax7896/device_xiaomi_munch-miuicamera" revision="topaz" path="device/xiaomi/munch-miuicamera"/>
     <project remote="gitlab" name="reloadedcaf/vendor_xiaomi_munch-miuicamera" revision="t" path="vendor/xiaomi/munch-miuicamera"/>
-
-    <!-- Additional Apps -->
-    <project remote="github" name="KProfiles/android_packages_apps_Kprofiles" revision="main" path="packages/apps/KProfiles"/>
 
     <!-- Firmware -->
     <project remote="gitlab" name="Ar5646L/vendor_xiaomi_munch-firmware" revision="thirteen-global" path="vendor/xiaomi/munch-firmware" />
