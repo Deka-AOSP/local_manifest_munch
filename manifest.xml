@@ -3,18 +3,18 @@
     <remote name="gitlab" fetch="https://gitlab.com/"/>
 
     <!-- Kernel -->
-    <project remote="github" name="projects-nexus/nexus_kernel_xiaomi_sm8250" revision="staging" path="kernel/xiaomi/sm8250"/>
+    <project remote="github" name="projects-nexus/nexus_kernel_xiaomi_sm8250" revision="staging" path="kernel/xiaomi/munch"/>
 
     <!-- Hardware -->
-    <project remote="github" name="Deka-AOSP/android_hardware_xiaomi" revision="lineage-20" path="hardware/xiaomi"/>
+    <project remote="github" name="crdroidandroid/android_hardware_xiaomi" revision="13.0" path="hardware/xiaomi"/>
 
     <!-- Device trees -->
-    <project remote="github" name="Deka-AOSP/android_device_xiaomi_sm8250-common" revision="lineage-20" path="device/xiaomi/sm8250-common"/>
-    <project remote="github" name="Deka-AOSP/android_device_xiaomi_munch" revision="lineage-20" path="device/xiaomi/munch"/>
+    <project remote="github" name="Deka-AOSP/device_xiaomi_sm8250-common" revision="crdroid-9" path="device/xiaomi/sm8250-common"/>
+    <project remote="github" name="Deka-AOSP/device_xiaomi_munch" revision="crdroid-9" path="device/xiaomi/munch"/>
 
     <!-- Vendor trees -->
-    <project remote="gitlab" name="deka-android/device-blobs-legacy/android_vendor_xiaomi_munch" revision="lineage-20" path="vendor/xiaomi/munch" />
-    <project remote="gitlab" name="deka-android/device-blobs-legacy/android_vendor_xiaomi_sm8250-common" revision="lineage-20" path="vendor/xiaomi/sm8250-common" />
+    <project remote="gitlab" name="deka-android/device-blobs/vendor_xiaomi_munch" revision="crdroid-9" path="vendor/xiaomi/munch" />
+    <project remote="gitlab" name="deka-android/device-blobs/vendor_xiaomi_sm8250-common" revision="crdroid-9" path="vendor/xiaomi/sm8250-common" />
 
     <!-- Gapps -->
     <project remote="gitlab" name="MindTheGapps/vendor_gapps" revision="tau" path="vendor/gapps"/>
@@ -23,8 +23,8 @@
     <project remote="github" name="madmax7896/device_xiaomi_munch-miuicamera" revision="topaz" path="device/xiaomi/munch-miuicamera"/>
     <project remote="gitlab" name="reloadedcaf/vendor_xiaomi_munch-miuicamera" revision="t" path="vendor/xiaomi/munch-miuicamera"/>
 
-    <!-- Firmware -->
-    <project remote="gitlab" name="Ar5646L/vendor_xiaomi_munch-firmware" revision="thirteen-global" path="vendor/xiaomi/munch-firmware" />
+    <!-- KProfiles -->
+    <project path="packages/apps/KProfiles" name="crdroidandroid/packages_apps_KProfiles" remote="github" revision="13.0" />
 
     <!-- OTA -->
     <project remote="github" name="Deka-AOSP/android_vendor_crDroidOTA_unofficial" revision="13.0" path="vendor/dekaCrOTA" />
