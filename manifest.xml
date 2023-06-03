@@ -3,10 +3,10 @@
     <remote name="gitlab" fetch="https://gitlab.com/"/>
 
     <!-- Kernel -->
-    <project remote="github" name="projects-nexus/nexus_kernel_xiaomi_sm8250" revision="staging" path="kernel/xiaomi/munch"/>
+    <project remote="github" name="projects-nexus/nexus_kernel_xiaomi_sm8250" revision="rebase" path="kernel/xiaomi/munch"/>
 
     <!-- Hardware -->
-    <project remote="github" name="crdroidandroid/android_hardware_xiaomi" revision="13.0" path="hardware/xiaomi"/>
+    <project remote="github" name="LineageOS/android_hardware_xiaomi" revision="lineage-20" path="hardware/xiaomi"/>
 
     <!-- Device trees -->
     <project remote="github" name="Deka-AOSP/device_xiaomi_sm8250-common" revision="crdroid-9" path="device/xiaomi/sm8250-common"/>
@@ -20,7 +20,7 @@
     <project remote="gitlab" name="MindTheGapps/vendor_gapps" revision="tau" path="vendor/gapps"/>
 
     <!-- MIUI camera-->
-    <project remote="github" name="madmax7896/device_xiaomi_munch-miuicamera" revision="topaz" path="device/xiaomi/munch-miuicamera"/>
+    <project remote="github" name="madmax7896/device_xiaomi_munch-miuicamera" revision="arrow-13.1" path="device/xiaomi/munch-miuicamera" />
     <project remote="gitlab" name="reloadedcaf/vendor_xiaomi_munch-miuicamera" revision="t" path="vendor/xiaomi/munch-miuicamera"/>
 
     <!-- KProfiles -->
